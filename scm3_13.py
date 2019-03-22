@@ -43,15 +43,14 @@ An=np.array((an,bn,cn)).T.ravel()
 Dn=nu*kn**4+nuL/kn**6
 
 Nf=2
-kf0=1.0j*np.sqrt(kn[-1]*kn[0])
+kf0=1.0j*2e3
 kf=[k[np.argmin(np.abs(k-kf0))]]
 for l in range(Nf-1):
     kf=np.append(kf,(k[~(np.isin(k,kf))])[np.argmin(np.abs(k[~(np.isin(k,kf))]-kf0))])
-kf0=-1.0j*np.sqrt(kn[-1]*kn[0])
+kf0=-1.0j*2e3
 for l in range(Nf):
     kf=np.append(kf,(k[~(np.isin(k,kf))])[np.argmin(np.abs(k[~(np.isin(k,kf))]-kf0))])
-fk=1e-4*np.complex_(np.isin(k,kf))/Nf/20
-gk=fk.copy()
+fk=1e-2*np.complex_(np.isin(k,kf))/Nf/20
 
 def force_update():
     global fk
