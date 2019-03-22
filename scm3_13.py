@@ -16,13 +16,13 @@ import scipy.integrate as spi
 
 # l = 1, m = 3
 
-N=110                       # number of nodes
-nu=1.0e-33                  # kinematic viscosity.
+N=80                       # number of nodes
+nu=1.0e-24                  # kinematic viscosity.
 nuL=1.0e2                  # kinematic viscosity.
 t0=0.0                      # initial time
 t1=10000.0                   # final time
-dt=1e-4;                     # time step for output.
-dtout=1e-1;
+dt=1e-3;                     # time step for output.
+dtout=5e-1;
 wecontinue=False            # do we continue from an existing file.
 flname="out_scm3_13.h5" 
 n=np.arange(0,N)
