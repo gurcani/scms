@@ -14,7 +14,7 @@ import time
 from scipy.stats import norm
 import scipy.integrate as spi
 
-# l = 2, m = 3
+# l = 1, m = 3
 
 N=110                       # number of nodes
 nu=1.0e-33                  # kinematic viscosity.
