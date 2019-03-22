@@ -3,7 +3,7 @@
  Spiral Chain Models
  ===================
  
- The basic model in this project solves the following equation for E<sub>n</sub>:
+ The basic model in this project (scm3Elm.py) solves the following equation for E<sub>n</sub>:
  
 > &part;<sub>t</sub> E<sub>n</sub> = (g<sup>2m</sup> - g<sup>2l</sup>)t<sup>E</sup><sub>n+l</sub> + (1 - g<sup>2m</sup>)t<sup>E</sup><sub>n</sub> + (g<sup>2l</sup> - 1)t<sup>E</sup><sub>n-m+l</sub>
 
