@@ -6,7 +6,7 @@ Created on Fri Mar  9 16:39:27 2018
 @author: ogurcan
 """
 
-# Three term single chain model of two dimensional euler system
+# Three term single chain model for En for any l and m smaller than 10
 
 import numpy as np
 import h5py as h5
