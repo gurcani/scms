@@ -6,7 +6,7 @@ Created on Fri Mar  9 16:39:27 2018
 @author: ogurcan
 """
 
-# Three term single chain model of two dimensional euler system
+# 6 terms chain model for En
 
 import numpy as np
 import h5py as h5
