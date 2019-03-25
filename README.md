@@ -13,6 +13,6 @@ where:
 
 with the two dimensional wavenumber defined as a complex number using k<sub>n</sub> = k0 (g e<sup>i&alpha;</sup>)<sup>n</sup>
 
-in general different values of l and m are possible as described in [X]. And the case that combines l=2,m=3 and l=1, m=5 and considering four such spiral chains (which has the best angular coverage) is included as fcm6E.py
+in general different values of l and m are possible as described in [https://arxiv.org/abs/1903.09494]. And the case that combines l=2,m=3 and l=1, m=5 and considering four such spiral chains (which has the best angular coverage) is included as fcm6E.py
 
 Finally the model for the case l=1,m=3 for the complex amplitude &Phi;<sub>n</sub> is also given as scm3_13.py
